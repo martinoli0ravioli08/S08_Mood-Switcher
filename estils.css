@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Marck+Script&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* VARIABLES DE COLORS */
+:root {
+  --carmin: #E0073B;
+  --fucsia: #E007BD;
+  --blau: #6B12E0;
+  --rosa: #E052C9;
+  --lila: #AC07E0;
+}
+
+/* ESTILS GENERALS */
+* {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkorchid;
+  padding: 2em;
+  text-align: center;
+}
+
+i {
+  margin-right: 1em;
+}
+
+nav {
+  background-color: var(--rosa);
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn:hover {
+  background-color: var(--blau);
+}
+
+.texto {
+  background-color: darkmagenta;
+  padding: 1em;
+  font-size: 1.2em;
+  transition: background-color 0.5s ease;
+}
+
+.foto {
+  background-color: #E052C9;
+  padding: 1em;
+  text-align: center;
+}
+
+.foto img {
+  width: 50%;
+  border-radius: 0.5em;
+}
+
+/* COLORS DE FONS SEGONS ESTAT D'ÀNIM */
+.texto.felic {
+  background-color: #ff00d4; /* groc brillant */
+  color: #000;
+}
+
+.texto.trist {
+  background-color: #89949e; /* blau clar */
+}
+
+.texto.enfadat {
+  background-color: #b40705; /* taronja fort */
+}
+
+.texto.relaxat {
+  background-color: #71f3ff; /* verd */
+}
+
+.texto.espantat {
+  background-color: #6d00da; /* lila intens */
+}
+
+.texto.sorprès {
+  background-color: #f6ff00; /* taronja suau */
+}
+
+.texto.fàstic {
+  background-color: #2b8900; /* verd llimona */
+}
+
+.texto.odi {
+  background-color: #5c0702; /* vermell fosc */
+}
